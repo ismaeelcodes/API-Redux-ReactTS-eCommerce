@@ -1,6 +1,4 @@
-export const FETCH_PRODUCTS = 'FETCH_PRODUCTS';
-export const SET_PRODUCTS = 'SET_PRODUCTS';
-
+// Defining Interface
 export interface Product {
     category: string;
     description: string;
@@ -14,4 +12,8 @@ export interface Product {
     title: string;
   }
 
+export interface State {
+    products: Product[];
+    categories: string[];
+  }
 

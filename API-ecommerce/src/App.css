@@ -6,15 +6,16 @@
     
     display: grid;
     grid-template-columns: 10% 90%;
-
+    height: 100vh;
+    width: 100vw;
 }
 
 .productContainer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 1rem;
-    margin-left: 1rem;
+
+ 
 
 }
 
@@ -49,7 +50,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   margin-top: 1rem;
+
 }
 
 .categorySpan{
@@ -65,4 +66,19 @@
 .selectSort{
     position: relative;
     left: 90%;
+}
+
+.searchBar{
+    display: flex;
+    flex-direction: column;
+}
+
+.searchBar > input{
+    align-self: center;
+}
+
+.priceCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

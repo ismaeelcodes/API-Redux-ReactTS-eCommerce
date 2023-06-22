@@ -7,6 +7,8 @@ export const store = configureStore({
   },
 })
 
+
+// Defining Thunk Action Type
 export type AppThunk<ReturnType = void> = ThunkAction<
   ReturnType,
   RootState,
